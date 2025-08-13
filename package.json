@@ -1,0 +1,20 @@
+{
+  "name": "discord-voice-kasma-bot",
+  "version": "1.0.0",
+  "description": "Discord Ses Kasma Botu - Slash Commands ile kullanıcı tokeni ve ses kanalı yönetimi",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "voice", "kasma"],
+  "author": "Discord Voice Bot",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.14.2",
+    "libsodium-wrappers": "^0.7.11"
+  }
+}
